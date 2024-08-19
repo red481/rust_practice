@@ -18,14 +18,17 @@ fn main() {
 
     println!("");
 
-    let mut arr: [i32; 5] = [1, 2, 3, 4, 5];
-    arr[5] = 7;
+    // let mut arr: [i32; 5] = [1, 2, 3, 4, 5];
+    // arr[5] = 7;
 
-    println!("arr[5] = {}", arr[5]);
+    // println!("arr[5] = {}", arr[5]);
 
     let mut arr: [i32; 5] = [1, 2, 3, 4, 5];
 
     println!("숫자를 입력해주세요.");
     let mut read = String::new();
-    
+    io::stdin().read_line(&mut read).unwrap();
+    let index: i32 = read.trim().parse().unwrap();
+
+    println!("arr[{}]={}", index, arr[index as usize]);
 }
