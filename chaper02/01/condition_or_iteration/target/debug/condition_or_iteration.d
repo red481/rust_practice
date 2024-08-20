@@ -1,0 +1,1 @@
+C:\Users\otuu1\gitStorage\t\rust_practice\chaper02\01\condition_or_iteration\target\debug\condition_or_iteration.exe: C:\Users\otuu1\gitStorage\t\rust_practice\chaper02\01\condition_or_iteration\src\main.rs
