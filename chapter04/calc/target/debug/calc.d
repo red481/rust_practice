@@ -1,0 +1,1 @@
+C:\Users\otuu1\gitStorage\t\rust_practice\chapter04\calc\target\debug\calc.exe: C:\Users\otuu1\gitStorage\t\rust_practice\chapter04\adder\src\lib.rs C:\Users\otuu1\gitStorage\t\rust_practice\chapter04\calc\src\main.rs
