@@ -7,7 +7,8 @@ use tokio::time;
 use std::time::Duration;
 use futures::executor::block_on;
 use std::io;
-use std::sync::Mutex;
+use std::sync::{ Arc, Mutex };
+use tokio::sync::Semaphore;
 
 fn main() {
     println!("Hello, world!");
@@ -210,3 +211,72 @@ fn test_mutex() {
 
     println!("결과: {}", *counter.lock().unwrap());
 }
+
+#[tokio::test]
+async fn test_semaphore() {
+    let semaphore = Arc::new(Semaphore::new(2));
+    let mut future_vec = vec![];
+
+    for _ in 0..100 {
+        let permit = semaphore.clone().acquire_owned().await.unwrap();
+        let future = tokio::spawn(async move {
+            let mut num = counter.lock().unwrap();
+            *num = *num + 1;
+
+            drop(permit);
+        });
+        future_vec.push(future);
+    }
+
+    for future in future_vec {
+        future.await.unwrap();
+    }
+
+    println!("결과: {}", *counter.lock().unwrap());
+}
+
+#[tokio::test]
+async fn test_arc() {
+    let counter2 = Arc::new(Mutex::new(0));
+    let mut thread_vec = vec![];
+
+    for _ in 0..100 {
+        let _cnt = counter2.clone();
+        let th = thread::spawn(move || {
+            let mut num = _cnt.lock().unwrap();
+            *num = *num + 1;
+        });
+        thread_vec.push(th);
+    }
+
+    for th in thread_vec {
+        th.join().unwrap();
+    }
+
+    println!("결과: {}", *counter2.lock().unwrap());
+}
+
+#[tokio::test]
+async fn test_deadlock() {
+    let lock_a = Arc::new(Mutex::new(0));
+    let lock_b = Arc::new(Mutex::new(0));
+
+    let lock_a_ref = lock_a.clone();
+    let lock_b_ref = lock_b.clone();
+
+    let thread1 = thread::spawn(move || {
+        let b = lock_b.lock().unwrap();
+        let a = lock_a_ref.lock().unwrap();
+    });
+
+    let thread2 = thread::spawn(move || {
+        let a = lock_a.lock().unwrap();
+        let b = lock_b_ref.lock().unwrap();
+    });
+
+    thread1.join().unwrap();
+    thread2.join().unwrap();
+
+    println!("프로그램 종료");
+}
+

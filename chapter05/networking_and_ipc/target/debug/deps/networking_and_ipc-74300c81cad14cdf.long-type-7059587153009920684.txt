@@ -1,0 +1,1 @@
+server::server::new_svc::NewSvcTask<AddrStream, {async block@src/main.rs:51:9: 55:10}, hyper::service::util::ServiceFn<{closure@src/main.rs:52:46: 52:56}, Body>, hyper::common::exec::Exec, server::server::NoopWatcher>
