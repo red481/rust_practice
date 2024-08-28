@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/chaper02/01/array/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chaper02/01/closure/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chaper02/01/condition_or_iteration/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chaper02/01/data_type/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chaper02/01/enums/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chaper02/01/fibonacci/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chaper02/01/function/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chaper02/01/list_using_struct/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chaper02/01/mutable/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chaper02/01/shadowing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chaper02/01/string/string/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chaper02/01/studying_struct/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chaper02/01/tuple/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter03/DMA/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter03/borrowed/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter03/double_linked_list/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter03/lifetime/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter03/ownership/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter04/adder/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter04/calc/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter04/collection/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter04/error_handling/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter04/filedb/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter04/mysystem/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter05/chatting_client/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter05/chatting_service/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter05/concurrency/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter05/input_output/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter05/networking_and_ipc/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter06/file_and_directory/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter06/rust_standard_library/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter06/shell_terminal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter06/time_processing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/chapter07/opp_rust/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/chaper02/01/array/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chaper02/01/closure/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chaper02/01/condition_or_iteration/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chaper02/01/data_type/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chaper02/01/enums/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chaper02/01/fibonacci/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chaper02/01/function/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chaper02/01/list_using_struct/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chaper02/01/mutable/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chaper02/01/shadowing/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chaper02/01/string/string/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chaper02/01/studying_struct/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chaper02/01/tuple/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter03/DMA/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter03/borrowed/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter03/double_linked_list/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter03/lifetime/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter03/ownership/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter04/adder/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter04/calc/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter04/collection/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter04/error_handling/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter04/filedb/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter04/mysystem/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter05/chatting_client/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter05/chatting_service/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter05/concurrency/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter05/input_output/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter05/networking_and_ipc/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter06/file_and_directory/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter06/rust_standard_library/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter06/shell_terminal/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter06/time_processing/target" />
+      <excludeFolder url="file://$MODULE_DIR$/chapter07/opp_rust/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
